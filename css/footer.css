@@ -1,0 +1,146 @@
+footer {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: -40px;
+    background: linear-gradient(transparent 8.2%, #dc1f3e 0%), 
+    linear-gradient(-45deg, #dc1f3e 33%, transparent 33%) 0 0%, 
+    transparent linear-gradient(45deg, #dc1f3e 33%, transparent 33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+    min-height: 100%;
+}
+
+#formulaire {
+    background-color: #dc1f3e;
+    padding-right: 0%;
+}
+
+.mega-zone-footer {
+    margin-top: 20px;
+    padding-top: 2%;
+}
+#formulaire {
+    color: black;
+}
+footer strong{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.texte-footer{
+    border-top: 2px solid #f1bcc2;
+    font-family: Arial;
+    color: #f1bcc2;
+    font-size: 10pt;
+    line-height: 15pt;
+    text-align: justify;
+    padding-top: 25px;
+}
+    
+.zone-button{
+    padding-right: 0px;
+}
+
+.mail-button {
+    line-height: 20px;
+    border-radius: 0px;
+    width: auto;
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#section[class*="col-"] {
+    line-height: 20px;
+    
+}
+.champs-obligatoire{
+    text-align: justify;
+    padding-left:0px;
+    color: #f1bcc2;
+    font-size: 10pt;
+}
+#cadicea{
+    padding-right: 100px;
+}
+.zone-formulaire{
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1025px){
+     footer {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: -40px;
+    background: #dc1f3e;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+    min-height: 100%;
+}
+.texte-footer{
+    margin-top: 10px;
+}
+
+#cadicea{
+    padding-right: 0px;
+}
+}
+/***************************************\
+**                                     **
+**  Media queries tablettes ==> footer **
+**      TABLETTE STYLE NEXUS 7                               **
+\***************************************/
+
+@media (max-width: 991px) {
+
+ footer {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: -40px;
+    background: #dc1f3e;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+    min-height: 100%;
+}
+.texte-footer{
+    margin-top: 10px;
+}
+
+#cadicea{
+    padding-right: 0px;
+    
+
+}
+}
+/***************************************\
+**                                     **
+**  Media queries smartphones ==> footer **
+**                                     **
+\***************************************/
+
+@media (max-width: 769px) {
+    footer {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: -40px;
+    background-color: #dc1f3e;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+    min-height: 100%;
+}
+
+.texte-footer{
+    text-align: center;
+    border-top: 0px;
+    font-family: Arial;
+    color: #f1bcc2;
+    font-size: 10pt;
+    line-height: 14pt;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+#cadicea{
+    padding-right: 0px;
+}
+}

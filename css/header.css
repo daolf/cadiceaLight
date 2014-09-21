@@ -1,0 +1,149 @@
+/*
+[class*="col-"], footer {
+    border: 1px solid black;
+}
+.header {
+    border: 1px solid red;
+}*/
+
+
+.linkHome{
+    position: relative; 
+    z-index: 1;
+    padding-top: 18%;
+    padding-bottom: 18%;
+}
+
+.logo {
+    height: 118px;
+    width: 330px;
+}
+
+
+
+.imlogo {
+    margin-top: 5px;
+    vertical-align: middle;
+    align: left;
+    height: 100% ;
+    width: 100% ;
+    position: relative; 
+    z-index: -100;
+
+}
+
+
+.shadow-effect:after{ 
+    content: ""; 
+    z-index: -1; 
+    position: absolute; 
+    width: 62%; 
+    top: 71px; 
+    right: 100px; 
+    bottom: 16px; 
+    left: 75px; 
+    -webkit-transform: rotate(3deg) skew(3deg); 
+    transform: rotate(3deg) skew(3deg); 
+    box-shadow: 15px 10px 10px 10px #777777; 
+}
+
+.contact {
+    padding-left: 75px;
+    padding-right: 0px;
+    height: 90px;
+     width: 330px;
+}
+
+
+.contact-text{
+    background: #006ab3;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #006ab3 0%, #006ab3 52%, #1c82d3 74%, #006ab3 90%, #006ab3 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #006ab3), color-stop(52%, #006ab3), color-stop(74%, #1c82d3), color-stop(90%, #006ab3), color-stop(100%, #006ab3));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #006ab3 0%, #006ab3 52%, #1c82d3 74%, #006ab3 90%, #006ab3 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #006ab3 0%, #006ab3 52%, #1c82d3 74%, #006ab3 90%, #006ab3 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #006ab3 0%, #006ab3 52%, #1c82d3 74%, #006ab3 90%, #006ab3 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #006ab3 0%, #006ab3 52%, #1c82d3 74%, #006ab3 90%, #006ab3 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#006ab3', endColorstr='#006ab3', GradientType=1);
+    /* IE6-9 */
+    background-repeat: repeat;
+    font-family: Arial;
+    font-weight: 500;
+    color: #dee7f1;
+    letter-spacing: 2px;
+
+    height:100%;
+    margin: 0px;
+}
+
+
+.contact-top {
+    font-size: 14.2pt;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    height: 30px;
+
+}
+.contact-bottom {
+    font-size: 16.84pt;
+    vertical-align: middle;
+    font-weight: 500;
+    padding-bottom: 10px;
+    height: 30px;
+
+}
+.accroche {
+    font-family: Arial;
+    font-size: 24pt;
+    letter-spacing: 1px;
+
+    color: #9fa1a2;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    border-top: 2px solid black;
+    border-top-style: solid;
+    border-top-color: #e0e0e0;
+}
+
+
+/***************************************\
+**                                     **
+**  Media queries tablettes ==> footer **
+**                                     **
+\***************************************/
+
+@media (max-width: 991px) {
+
+}
+/***************************************\
+**                                     **
+**  Media queries smartphones ==> footer **
+**                                     **
+\***************************************/
+
+@media (max-width: 767px) {
+
+    .logo{
+        width:100%;
+    }
+
+    .contact{
+        margin-top: 15px;
+        padding-left: 0px;
+        width:100%;
+    }
+
+    .accroche{
+        font-size: 20pt;
+    }
+
+
+}

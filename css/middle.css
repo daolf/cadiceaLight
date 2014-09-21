@@ -1,0 +1,178 @@
+[class*="col-"], footer {
+    /*border: 0px solid black;*/
+    line-height: auto;
+    text-align: center;
+}
+
+.container-gal{
+	
+	/*padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;*/ 
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.container-gal-in{
+	background-color: #75a7cd;
+    margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.container-img {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.visuel {
+    position: relative;
+    display: block;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    margin-top: 0;
+    width: 100%;
+}
+
+.text-biberon {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-family: vagBold, Arial;
+    font-size: 16pt;
+    color:#116aaf;
+    text-align: left;
+}
+
+
+.text-visuel2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-family: Arial;
+    font-size: 14pt;
+    color:#de3b52;
+    text-align: left;
+}
+
+.text-visuel2bis {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-family: vagBold, Arial;
+    font-size: 14pt;
+    color:#932a15;
+    text-align: left;
+}
+
+
+
+.text-visuel3 {
+    position: absolute;
+    top: 4%;
+    left:12%;
+    font-family: vagBold, Arial;
+    font-size: 19pt;
+    color:#116aaf;
+    text-align: center;
+}
+
+
+.bouton-decouvrir-middle {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: right;
+	padding-right: 12%;
+	padding-top: 4px;
+	padding-bottom: 0%;
+	color: #ffffff;
+
+}
+
+.my-btn {
+	background: none;
+	border:none;
+	color: #dc1f3e;
+}
+
+
+
+@media(max-width: 1025px){
+         .text-biberon{
+        display:none;
+   }
+   .text-visuel3{
+    display:none;
+}
+ .container-gal{
+    
+    /*padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;*/ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+}
+@media (max-width: 991px) {
+ .container-gal{
+    
+    /*padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;*/ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+}
+/***************************************\
+**                                     **
+**  Media queries smartphones ==> footer **
+**                                     **
+\***************************************/
+
+@media (max-width: 767px) {
+
+   .text-biberon{
+        display:none;
+   }
+   .container-gal{
+    
+    /*padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;*/ 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.text-visuel2bis {
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 8pt;
+   
+}
+.text-visuel3{
+    display:none;
+}
+.bouton-decouvrir-middle {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    padding-right: 0%;
+    padding-left: 2%;
+    padding-top: 4px;
+    padding-bottom: 0%;
+    color: #ffffff;
+
+}
+}
+
+

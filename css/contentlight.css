@@ -1,0 +1,231 @@
+[class*="col-"] {
+    border: 1px solid black;
+}
+.box-content {
+    padding: 10px 10px 0px 10px;
+    height:1100px;
+}
+a {
+    font-family: Arial;
+    font-size: 12pt;
+    color: #949697;
+}
+a:hover, .current{
+    color: #005faa;
+    font-size: 12pt;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+	.menu-text-content {
+	    height: 1100px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    background-color: #fff; 
+	}
+		.menu-content {
+		    padding: 70px 0px 30px 14px;
+		    height: 20%;
+		    background-color: #fff;
+		}
+			.menu-href-1 { 
+			    background-color: #fff;
+			}
+			.menu-href-2 { 
+			    border-width: 1px;
+			    border-style: dashed;
+			    border-color: #949697;
+			    border-left: 0px;
+			    border-right: 0px;
+			    }
+			.menu-href {
+					text-align: left;
+					padding-top: 10px;
+					padding-left: 0px;
+					padding-bottom: 10px;
+				}
+		.text-contain {
+					background-color: #fff; 
+					margin-top: 70px;
+		}
+			.text-content {
+					margin-top: 0px;
+					padding-top: 0px;
+			    border-style: dashed;
+			    border-color: #949697;
+			    border-width: 0px 0px 0px 1px;
+			}
+
+			h1{
+				font-weight: bold;
+    		font-size: 14pt;
+    		color: #005faa;
+			}
+
+			h2{
+				font-weight: bold;
+    		font-size: 10pt;
+    		color: #005faa;
+			}
+
+			.li-sans-puce {
+				list-style-type: none; 
+			}
+
+			li{
+				list-style-type: square;
+				color: #dc1f3e;
+				text-align: left;
+				font-size: 18pt;
+			}
+
+			li p {				
+		    text-align: left;
+		    font-family: Arial;
+		    font-size: 10pt;
+		    color: #898a8c;
+		    line-height: 16px;
+			}
+
+			.libis {
+		    font-family: Arial;
+		    font-size: 10pt;
+		    color: #898a8c;
+		    line-height: 16px;
+		    list-style-type: disc; 
+			}
+
+			.ulbis {
+				margin-left: 15px;
+				padding-left: 0px;
+			}
+
+
+
+.blue-ombre:before{ 
+    content: ""; 
+    z-index: -1; 
+    position: absolute; 
+    width: 95%; 
+    top: 15px; 
+    right: 0px; 
+    bottom: 10px; 
+    left: 0px; 
+    border-radius: 0px; 
+    box-shadow: 0px 0px 20px #2A2E31; 
+} 
+.blue-ombre:after{ 
+    content: ""; 
+    z-index: -1; 
+    position: absolute; 
+    width: 95%; 
+    top: 15px; 
+    right: 0px; 
+    bottom: 10px; 
+    border-radius: 0px; 
+    box-shadow: 0px 0px 20px #2A2E31; 
+}
+
+.contain-photo-mama{
+	display: block;
+	margin-top: 70px;
+	padding-left: 0px
+
+}
+
+.photoMama{
+	width:75%;
+	height:75%;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+/* Surcharge css pour les différentes pages */
+.text-hors-li{
+	font-family: Arial;
+	font-size: 11pt;
+	color: #898a8c;
+	line-height: 16px;
+	padding-left: 45px;
+	text-align: justify;
+	height:700px;
+	letter-spacing: 1px;
+}
+
+.libis-mama {
+  font-family: Arial;
+  font-size: 11pt;
+  color: #898a8c;
+  line-height: 16px;
+  list-style-type: disc; 
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+
+.productPhoto{
+	height:230px;
+}
+
+.productButtonContainer{
+	margin-top: 40px;
+}
+
+.productButton{
+	width:130px;
+	height:50px;
+}
+
+.productButton:hover{
+	background-color: #ea8e9c;
+	border: 1px solid grey;
+}
+
+.productButton:hover .titleUnderButtton{
+	color: black;
+}
+
+
+
+.texteUnderButton {
+	font-family: Arial;
+  font-size: 11pt;
+  color: #898a8c;
+  line-height: 16px;
+  list-style-type: disc; 
+  letter-spacing: 1px;
+  text-align: left;
+  visibility: hidden;
+}
+
+.titleUnderButton {
+	margin-top: 30px;
+	font-family: Arial;
+  font-size: 14pt;
+	color: #dc1f3e;
+  line-height: 30px;
+  list-style-type: square; 
+  letter-spacing: 1px;
+  text-align: center;
+  visibility: hidden;
+}
+
+
+
+/***************************************\
+**                                     **
+**  Media queries tablettes ==> slider **
+**                                     **
+\***************************************/
+
+@media (max-width: 1025px) {
+	.menu-text-content {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    background-color: #fff; 
+	}
+		.menu-content {
+		    padding: 0px 0px 0px 0px;
+		    background-color: #fff;
+		    width: 100%;
+		}
+}

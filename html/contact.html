@@ -1,0 +1,25 @@
+<html>
+<head>
+	
+	<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <form id="formulaire" method="post" action="traitement.php" class="well">
+        <p class="error"></p>
+        <h3>Nom</h3>	
+        <input class="form-text" required="true" type="text" name="nom" id="nom" value="" />
+
+        <h3>Email</h3>
+        <input class="form-text" type="text" mask="email" required="true" name="email" id="email" value="" />
+
+        <h3>Votre message</h3>
+        <textarea class="form-textarea" rows="8" cols="40" required="true" name="message" id="message"></textarea>
+        <br/>
+
+        <button class="form-bouton" type="submit">Envoyer</button>
+    </form>
+
+</body>
+
+
+</html>

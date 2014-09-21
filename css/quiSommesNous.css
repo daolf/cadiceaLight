@@ -1,0 +1,127 @@
+/*[class*="col-"] {
+    border: 1px solid black;
+}*/
+.box-content {
+    padding: 10px 10px 0px 10px;
+}
+a {
+    font-family: Arial;
+    font-size: 12pt;
+    color: #949697;
+}
+a:hover, .current{
+    color: #005faa;
+    font-size: 12pt;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+	.menu-text-content {
+	    height: 100%;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    background-color: #fff; 
+	}
+		.menu-content {
+		    padding: 70px 0px 30px 14px;
+		    height: 100%;
+		    background-color: #fff;
+		}
+			.menu-href-1 { 
+			    background-color: #fff;
+			    height: 100%;
+			}
+			.menu-href-2 { 
+			    border-width: 1px;
+			    border-style: dashed;
+			    border-color: #949697;
+			    border-left: 0px;
+			    border-right: 0px;
+			    }
+			.menu-href {
+					text-align: left;
+					padding-top: 0px;
+					padding-left: 0px;
+					padding-bottom: 10px;
+				}
+		.text-contain {
+					background-color: #fff; 
+					margin-top: 70px;
+		}
+			.text-content {
+					margin-top: 0px;
+					padding-top: 0px;
+			    border-style: dashed;
+			    border-color: #949697;
+			    border-width: 0px 0px 0px 1px;
+			}
+
+			h1{
+				font-weight: bold;
+    		font-size: 14pt;
+    		color: #005faa;
+			}
+
+			h2{
+				font-weight: bold;
+    		font-size: 10pt;
+    		color: #005faa;
+			}
+
+			.first-li {
+				list-style-type: none; 
+			}
+
+			li{
+				list-style-type: square;
+				color: #dc1f3e;
+				text-align: left;
+				font-size: 18pt;
+			}
+
+			li p {				
+		    text-align: left;
+		    font-family: Arial;
+		    font-size: 10pt;
+		    color: #898a8c;
+		    line-height: 16px;
+			}
+
+			.libis {
+		    font-family: Arial;
+		    font-size: 10pt;
+		    color: #898a8c;
+		    line-height: 16px;
+		    list-style-type: disc; 
+			}
+
+			.ulbis {
+				margin-left: 15px;
+				padding-left: 0px;
+			}
+
+
+
+.blue-ombre:before{ 
+    content: ""; 
+    z-index: -1; 
+    position: absolute; 
+    width: 95%; 
+    top: 15px; 
+    right: 0px; 
+    bottom: 10px; 
+    left: 0px; 
+    border-radius: 0px; 
+    box-shadow: 0px 0px 20px #2A2E31; 
+} 
+.blue-ombre:after{ 
+    content: ""; 
+    z-index: -1; 
+    position: absolute; 
+    width: 95%; 
+    top: 15px; 
+    right: 0px; 
+    bottom: 10px; 
+    border-radius: 0px; 
+    box-shadow: 0px 0px 20px #2A2E31; 
+}
