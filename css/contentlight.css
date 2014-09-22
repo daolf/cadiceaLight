@@ -1,6 +1,6 @@
-[class*="col-"] {
+/*[class*="col-"] {
     border: 1px solid black;
-}
+}*/
 .box-content {
     padding: 10px 10px 0px 10px;
     height:1100px;
