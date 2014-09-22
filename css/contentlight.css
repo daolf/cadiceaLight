@@ -245,3 +245,14 @@ li p {
 	}
 
 }
+
+@media (max-width: 991px) {
+	.contain-photo-mama{
+		margin-top: 10px;
+	}
+	.photoMama{
+	width:30%;
+	height:30%;
+}
+}
+
