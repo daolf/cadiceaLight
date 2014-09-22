@@ -29,7 +29,23 @@
 				</header>
 				<section class="row">
 					<div class="col-lg-12 blue blue-ombre">
-					<?php include 'html/quiSommesNous.html'; ?>
+					<?php
+						if (isset($_GET['sheet'])) {
+							$tmp = $_GET['sheet'];
+							$nav = 0;
+						    if ($tmp == "cadiceaMama")
+						        $nav = 1;
+						    elseif ($tmp == "gamme")
+						        $nav = 2;
+							include 'html/menu.php';
+							if ($tmp == "quiSommesNous")
+								include 'html/quiSommesNous.html';
+							elseif ($tmp == "cadiceaMama")
+								include 'html/cadiceaMama.html';
+							elseif ($tmp == "gamme")
+								include 'html/gamme.html';
+						}
+					?>
 					</div>
 				</section>
 				</section>
