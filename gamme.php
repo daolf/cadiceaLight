@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/queries.css">
-	<link rel="stylesheet" type="text/css" href="css/contentLight.css">
+	<link rel="stylesheet" type="text/css" href="css/contentlight.css">
 	<script type="text/javascript">
 	disp = {
 		show: function(elem) {
