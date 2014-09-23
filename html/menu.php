@@ -3,6 +3,9 @@
     <div class="col-lg-12 box-content">
         <div class="col-lg-12 menu-text-content">
             <div class="col-lg-2 menu-content">
+                <class class="col-lg-12 menu-href menu-href-ac ">
+                    <a href="index.php"> Acceuil</a>
+                </class>
                 <class class="col-lg-12 menu-href menu-href-1 ">
                     <a href="decouvrir.php?sheet=quiSommesNous"
                         <?php

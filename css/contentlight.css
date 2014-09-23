@@ -44,6 +44,16 @@ a:hover, .current{
 	padding-left: 0px;
 	padding-bottom: 10px;
 }
+
+.menu-href-ac {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #949697;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+
 .text-contain {
 	background-color: #fff; 
 	margin-top: 70px;
@@ -223,6 +233,10 @@ li p {
 	}
 
 	.menu-href-2 {
+		border-style: none;
+	}
+	
+	.menu-href-ac{
 		border-style: none;
 	}
 	.menu-content {
