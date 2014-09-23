@@ -17,7 +17,7 @@
                             if ($nav == 1) { echo 'class="current"'; }
                             else {echo 'class=""';}
                         ?>
-                    > Cadicea mama</a>
+                    > Cadicea mama</a>
                 </class>
                 <class class="col-lg-12 menu-href">
                     <a href="decouvrir.php?sheet=gamme"
