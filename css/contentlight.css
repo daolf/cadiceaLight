@@ -261,12 +261,25 @@ li p {
 }
 
 @media (max-width: 991px) {
+
+	.menu-text-content {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff; 
+}
+
+	.box-content {
+    	padding: 10px 10px 0px 10px;
+    	height: auto;
+	}
+
 	.contain-photo-mama{
 		margin-top: 10px;
 	}
 	.photoMama{
 	width:30%;
 	height:30%;
-}
+	}
 }
 

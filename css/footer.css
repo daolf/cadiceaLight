@@ -99,7 +99,7 @@ footer strong{
  footer {
     position: relative;
     padding-bottom: 20px;
-    margin-top: -40px;
+    margin-top: 0px;
     background: #dc1f3e;
     background-size: 1px 100%, 40px 40px, 40px 40px;
     min-height: 100%;
@@ -124,7 +124,7 @@ footer strong{
     footer {
     position: relative;
     padding-bottom: 20px;
-    margin-top: -40px;
+    /*margin-top: -40px;*/
     background-color: #dc1f3e;
     background-size: 1px 100%, 40px 40px, 40px 40px;
     min-height: 100%;
