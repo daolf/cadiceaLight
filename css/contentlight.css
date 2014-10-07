@@ -22,6 +22,7 @@ a:hover, .current{
     padding-left: 0px;
     padding-right: 0px;
     background-color: #fff; 
+
 }
 .menu-content {
     padding: 70px 0px 30px 14px;
@@ -63,7 +64,7 @@ a:hover, .current{
 	padding-top: 0px;
     border-style: dashed;
     border-color: #949697;
-    border-width: 0px 0px 0px 1px;
+    border-width: 0px 0px 0px 1px;    
 }
 
 h1 {
@@ -92,21 +93,21 @@ li {
 li p {				
 	text-align: left;
 	font-family: Arial;
-	font-size: 10pt;
+	font-size: 14pt;
 	color: #898a8c;
-	line-height: 16px;
+	line-height: 24px;
 }
 
 .libis {
 	font-family: Arial;
-	font-size: 10pt;
+	font-size: 14pt;
 	color: #898a8c;
-	line-height: 16px;
+	line-height: 24px;
 	list-style-type: disc; 
 }
 
 .ulbis {
-	margin-left: 15px;
+	margin-left: 25px;
 	padding-left: 0px;
 }
 
@@ -152,9 +153,9 @@ li p {
 /* Surcharge css pour les différentes pages */
 .text-hors-li{
 	font-family: Arial;
-	font-size: 11pt;
+	font-size: 14pt;
 	color: #898a8c;
-	line-height: 16px;
+	line-height: 24px;
 	padding-left: 45px;
 	text-align: justify;
 	height:700px;
@@ -163,9 +164,9 @@ li p {
 
 .libis-mama {
   font-family: Arial;
-  font-size: 11pt;
+  font-size: 14pt;
   color: #898a8c;
-  line-height: 16px;
+  line-height: 24px;
   list-style-type: disc; 
   letter-spacing: 1px;
   text-align: justify;
