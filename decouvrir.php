@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<link rel="stylesheet" type="text/css" href="css/contentlight.css">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,15 +19,8 @@
   	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
+	<script src="app/app.js"></script>
 	<script type="text/javascript">
-		disp = {
-		    show: function(elem) {
-		        document.getElementById(elem).style.visibility = 'visible';
-		    },
-		    hide: function(elem) {
-		        document.getElementById(elem).style.visibility = 'hidden';
-		    }
-		}
 </script>
 	<title>Qui sommes nous ?</title>
 </head>
