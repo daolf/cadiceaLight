@@ -28,6 +28,6 @@
                             if ($nav == 2) { echo 'class="current"'; }
                             else {echo 'class=""';}
                         ?>
-                    > Cadicea Fonscare</a>
+                    > Cadicea Fonscare</a>
                 </class>
             </div>

@@ -1,5 +1,4 @@
 .slider {
-	/*margin-top: 10px;*/
 	margin-bottom: 20px;
 }
 
@@ -52,7 +51,7 @@
 }
 
 .slider__img {
-	margin-top: 10px;
+	margin-top: 15px;
 	position: relative;
 	width: 100%;
 }
