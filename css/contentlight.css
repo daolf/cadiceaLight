@@ -158,7 +158,7 @@ li p {
 	line-height: 24px;
 	padding-left: 45px;
 	text-align: justify;
-	height:700px;
+	min-height:700px;
 	letter-spacing: 1px;
 }
 
@@ -240,15 +240,15 @@ li p {
 	.menu-content {
 		height: auto;
 		background-color: #fff;
-	    padding-left: 0;
-	    padding-top: 0;
-	    padding-bottom: 0;
-	    padding-right: 0;
-	    background-color: #fff;
-	    border-bottom: 1px dashed #949697;
-	    border-bottom-width:  = 80px;
-	    margin-left: 10%;
-	    width: 80%;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    background-color: #fff;
+    border-bottom: 1px dashed #949697;
+    border-bottom-width:  = 80px;
+    margin-left: 10%;
+    width: 80%;
 	}
 
 	.text-contain {
