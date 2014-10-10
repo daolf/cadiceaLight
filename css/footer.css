@@ -10,6 +10,10 @@ footer {
     min-height: 100%;
 }
 
+.input {
+    border-radius: 0px;
+}
+
 #formulaire {
     background-color: #dc1f3e;
     padding-right: 0%;
