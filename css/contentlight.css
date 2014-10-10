@@ -162,6 +162,16 @@ li p {
 	letter-spacing: 1px;
 }
 
+.text-hors-li-gamme{
+	font-family: Arial;
+	font-size: 14pt;
+	color: #898a8c;
+	line-height: 24px;
+	padding-left: 45px;
+	min-height:700px;
+	letter-spacing: 1px;
+} 
+
 .libis-mama {
   font-family: Arial;
   font-size: 14pt;
@@ -217,6 +227,10 @@ li p {
   visibility: hidden;
 }
 
+.sliderNav {
+	display:none;
+}
+
 /***************************************\
 **                                     **
 **  Media queries tablettes ==> slider **
@@ -265,7 +279,7 @@ li p {
     padding-left: 0px;
     padding-right: 0px;
     background-color: #fff; 
-}
+	}
 
 	.box-content {
     	padding: 10px 10px 0px 10px;
@@ -275,9 +289,65 @@ li p {
 	.contain-photo-mama{
 		margin-top: 10px;
 	}
+
 	.photoMama{
 	width:30%;
 	height:30%;
 	}
+	
+	
+	.text-hors-li-gamme{
+		padding: 0px 4px 0px 4px;
+	}
+
+	.productPhoto{
+	height:auto;
+	width: 129px;
+	}
+
+	.productPhotoCol{
+	margin-top: 30px
+	}
+	
+
+
+	.sliderNav{
+	display:inline;
+	letter-spacing: 5px;
+	}
+	
+
+
+	.arrow-next, .arrow-prev {
+  display: inline-block;
+  vertical-align: top;
+	background: none;
+	border:none;
+	color: #dc1f3e;
+	font-size: 3em;
+	margin-top: -10px;
+	}
+	
+	
+
+	.slider-dots{
+		display: inline-block;
+		padding: 0 0 0 0;
+	}
+
+	.slider-dots li{
+		display: inline;
+		color: #898a8c;
+	}
+	
+
+	.slider-dots .active-dot{
+		color: #dc1f3e;
+	}
+
+	.texteUnderButton{
+		margin-bottom: 10px;
+	}
+
 }
 
