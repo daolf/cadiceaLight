@@ -58,6 +58,7 @@
     font-size: 14pt;
     color:#de3b52;
     text-align: left;
+    margin-left: 10px;
 }
 
 .text-visuel2bis {
@@ -65,9 +66,12 @@
     top: 20%;
     left: 50%;
     font-family: vagBold, Arial;
-    font-size: 14pt;
+    font-size: 16pt;
     color:#932a15;
     text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 100%;
 }
 
 
