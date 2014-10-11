@@ -156,12 +156,19 @@
     margin-top: 15px;
     margin-bottom: 0px;
     }
-
-    .text-visuel2bis {
-    padding-top: 20px;
+    
+    .text-visuel2 {
+    padding-top: 10px;
     line-height: 20px;
     font-size: 8pt;
-       
+    margin-left: 0px;
+    }
+
+    .text-visuel2bis {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 8pt;
+    margin-left: 5px;
     }
     
     .col-lg-3 .container-gal-in{
