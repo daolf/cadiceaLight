@@ -69,7 +69,15 @@ footer strong{
     padding-right: 40px;
 }
 
-
+@media (max-width: 1198px){
+    footer{
+   background: linear-gradient(transparent 5.2%, #dc1f3e 0%), 
+    linear-gradient(-45deg, #dc1f3e 33%, transparent 33%) 0 0%, 
+    transparent linear-gradient(45deg, #dc1f3e 33%, transparent 33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+    }
+}
 
 
 
