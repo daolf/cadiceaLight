@@ -281,6 +281,10 @@ li p {
     background-color: #fff; 
 	}
 
+	.text-content {
+		border: 0px;
+	}
+
 	.box-content {
     	padding: 10px 10px 0px 10px;
     	height: auto;
