@@ -23,7 +23,7 @@ var main = function(){
     currentProd.removeClass('activeProduct');
     currentDot.removeClass('active-dot');
 
-    nextProd.fadeIn(600);
+    nextProd.delay(650).fadeIn(600);
     nextProd.addClass('activeProduct');
     nextDot.addClass('active-dot');
     
@@ -41,7 +41,7 @@ var main = function(){
     currentProd.fadeOut(600);
     currentProd.removeClass('activeProduct');
     currentDot.removeClass('active-dot');
-    nextProd.fadeIn(600);
+    nextProd.delay(650).fadeIn(600);
     nextProd.addClass('activeProduct');
     nextDot.addClass('active-dot'); 
  	 });
