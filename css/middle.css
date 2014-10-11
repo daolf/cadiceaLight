@@ -153,20 +153,25 @@
     padding-right: 10px;*/ 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-}
+    margin-top: 15px;
+    margin-bottom: 0px;
+    }
 
-.text-visuel2bis {
+    .text-visuel2bis {
     padding-top: 20px;
     line-height: 20px;
     font-size: 8pt;
-   
-}
-.text-visuel3{
+       
+    }
+    
+    .col-lg-3 .container-gal-in{
+        margin-bottom: 15px;
+    }
+
+    .text-visuel3{
     display:none;
-}
-.bouton-decouvrir-middle {
+    }
+    .bouton-decouvrir-middle {
     font-family: Arial;
     font-weight: bold;
     font-size: 12px;
@@ -177,7 +182,7 @@
     padding-bottom: 0%;
     color: #ffffff;
 
-}
+    }
 }
 
 
