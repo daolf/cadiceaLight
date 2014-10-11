@@ -316,26 +316,29 @@ li p {
 
 
 	.sliderNav{
-	display:inline;
+		display: inline;
 	letter-spacing: 5px;
+	height: 40px;
 	}
 	
 
 
 	.arrow-next, .arrow-prev {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
 	background: none;
 	border:none;
 	color: #dc1f3e;
 	font-size: 3em;
 	margin-top: -10px;
+	padding-left: 0px;
+	padding-right: 0px;
 	}
 	
 	
 
 	.slider-dots{
-		display: inline-block;
+		display: inline;
 		padding: 0 0 0 0;
 	}
 
@@ -351,6 +354,10 @@ li p {
 
 	.texteUnderButton{
 		margin-bottom: 10px;
+	}
+
+	.glyphicon ,.glyphicon-chevron-left{
+		display: inline;
 	}
 
 }
