@@ -2,21 +2,15 @@
 	margin-bottom: 20px;
 }
 
-.slider > div {
-	/*background-color: #bfd9ec;*/
-}
-
 .texte {
 	position: absolute;
 	left: 55%;
 	top: 20%;
 	width: 450px;
-	/*background-color: red;*/
 }
 
 .texte p {
 	color: #0367b2;
-	/*background-color: red;*/
 }
 
 .top-texte {

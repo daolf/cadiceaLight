@@ -1,14 +1,4 @@
-[class*="col-"], footer {
-    /*border: 0px solid black;*/
-    line-height: auto;
-    text-align: center;
-}
-
 .container-gal{
-	
-	/*padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;*/ 
 	margin-left: auto;
 	margin-right: auto;
     margin-bottom: 200px;

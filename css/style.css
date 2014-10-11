@@ -10,14 +10,7 @@
 }
 
 body {
-	/*padding-top: 10px;*/
 	background: linear-gradient(135deg, #ffffff 0%,#dbdbdb 100%);
-}
-
-[class*="col-"] {
-	/*background-color: lightgreen;*/
-	line-height: 40px;
-	text-align: center;
 }
 
 .blue {
