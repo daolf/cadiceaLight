@@ -181,11 +181,7 @@
     }
 }
 
-/***************************************\
-**                                     **
-**  Media queries smartphones ==> footer **
-**                                     **
-\***************************************/
+
 
 @media (max-width: 767px) {
 
@@ -202,20 +198,7 @@
     margin-top: 15px;
     margin-bottom: 0px;
     }
-    
-    .text-visuel2 {
-    padding-top: 10px;
-    line-height: 20px;
-    font-size: 8pt;
-    margin-left: 0px;
-    }
 
-    .text-visuel2bis {
-    padding-top: 10px;
-    line-height: 20px;
-    font-size: 8pt;
-    margin-left: 5px;
-    }
     
     .col-lg-3 .container-gal-in{
         margin-bottom: 15px;
@@ -236,6 +219,35 @@
     color: #ffffff;
 
     }
+
+   .text-visuel2 {
+    padding-top: 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    font-size: 13pt;
+    }
+
+    .text-visuel2bis {
+    padding-top: 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    font-size: 15pt;
+    }
 }
 
+@media (max-width: 400px){
+    .text-visuel2 {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 7.8pt;
+    margin-left: 0px;
+    }
+
+    .text-visuel2bis {
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 8pt;
+    margin-left: 0px;
+    }
+}
 
