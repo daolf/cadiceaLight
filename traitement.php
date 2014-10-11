@@ -41,13 +41,20 @@ $mail_corps = "Message de : $nom\n";
 $mail_corps .= "e-Mail : $email\n";
 $mail_corps .= "Message : $message\n";
  
+
+
+/* Redirection vers une page différente du même dossier */
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$extra = 'msg_formulaire.php';
+
 // envoi du mail
 if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$headers)) {
   //Le mail est bien expédié
-  echo $msg_ok;
+  header("Location: http://$host$uri/$extra?state=succes");
 } else {
   //Le mail n'a pas été expédié
-  echo "Une erreur est survenue lors de l'envoi du formulaire par email";
+  header("Location: http://$host$uri/$extra?state=error");
 }
  
 ?>
