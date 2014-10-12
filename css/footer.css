@@ -10,20 +10,14 @@ footer {
     min-height: 100%;
 }
 
-footer a{
+.texte-footer a{
     font-size: 10pt;
-
     text-align: justify;
 }
 
-footer a:hover{
-    display: block;
-    font-size: 10pt;    
-    line-height: 15pt;
-    font-weight: bold;
-    text-align: justify;
-    text-decoration: none;
-    color: #949697;
+.texte-footer a:hover{
+    font-weight: 600;
+    color: #fff;
 }
 
 .input {

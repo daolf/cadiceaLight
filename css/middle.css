@@ -95,6 +95,15 @@
 	color: #dc1f3e;
 }
 
+a:hover{
+    text-decoration: none;
+}
+.bouton-decouvrir-middle:hover{
+    color: #005faa;
+    font-size: 12pt;
+    font-weight: 600;
+    text-decoration: none;
+}
 
 
 @media(max-width: 1198px){

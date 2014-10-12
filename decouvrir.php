@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<link rel="stylesheet" type="text/css" href="css/contentlight.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
@@ -57,11 +56,10 @@
 			</div>
 		</section>
 	</div>
-</body>
-
 <footer style="width: 100%;">
 		<div class="container">
 			<?php include 'html/footer.html'; ?>
 		</div>
 	</footer>
+</body>
 </html>

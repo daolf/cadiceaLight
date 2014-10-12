@@ -7,13 +7,17 @@ $from  = "postmaster@cadicea.com";  // adresse MAIL OVH liée à ton hébergemen
 define('MAIL_DESTINATAIRE','sahin.kevin@gmail.com');
 define('MAIL_SUJET','Contact utilisateur');
  
+/* Redirection vers une page différente du même dossier */
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$extra = 'msg_formulaire.php';
+
 // vérification des champs
-if (empty($_POST['nom']))
-$message .= "Votre nom<br/>";
-if (empty($_POST['email']))
-$message .= "Votre e-Mail<br/>";
-if (empty($_POST['message']))
-$message .= "Votre message<br/>";
+if ( empty($_POST['nom']) || empty($_POST['email']) || empty($_POST['message']) ) {
+    header("Location: http://$host$uri/$extra?state=missing");
+    die();
+}
+
  
 // si un champ est vide, on affiche le message d'erreur et on stoppe le script
 if (strlen($message) > strlen($msg_erreur)) {
@@ -43,10 +47,7 @@ $mail_corps .= "Message : $message\n";
  
 
 
-/* Redirection vers une page différente du même dossier */
-$host  = $_SERVER['HTTP_HOST'];
-$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$extra = 'msg_formulaire.php';
+
 
 // envoi du mail
 if (mail(MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$headers)) {

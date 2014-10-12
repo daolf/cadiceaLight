@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
