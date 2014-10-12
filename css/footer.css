@@ -69,6 +69,11 @@ footer strong{
     padding-right: 40px;
 }
 
+.section {
+    text-decoration: none;
+    color: #f1bcc2;
+}
+
 @media (max-width: 1198px){
     footer{
    background: linear-gradient(transparent 5.2%, #dc1f3e 0%), 
