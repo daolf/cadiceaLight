@@ -4,7 +4,7 @@ $msg_erreur = "Erreur. Les champs suivants doivent être obligatoirement remplis
 $msg_ok = "Votre demande a bien été prise en compte.";
 $message = $msg_erreur;
 $from  = "postmaster@cadicea.com";  // adresse MAIL OVH liée à ton hébergement.
-define('MAIL_DESTINATAIRE','sahin.kevin@gmail.com');
+define('MAIL_DESTINATAIRE','test@cadicea.com');
 define('MAIL_SUJET','Contact utilisateur');
  
 /* Redirection vers une page différente du même dossier */
