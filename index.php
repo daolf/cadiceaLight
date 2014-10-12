@@ -21,6 +21,7 @@
 	<meta name="keywords" content="Cadicea, Lait infantile, md-fonscare" />
 	<title>Cadicea</title>
 </head>
+
 <body>
 	<div class="container">
 		<section class="row main">
@@ -39,10 +40,11 @@
 			</div>
 		</section>
 	</div>
-	<footer style="width: 100%;">
+</body>
+
+<footer style="width: 100%;">
 		<div class="container">
 			<?php include 'html/footer.html'; ?>
 		</div>
 	</footer>
-</body>
 </html>
