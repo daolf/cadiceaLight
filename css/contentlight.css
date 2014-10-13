@@ -156,9 +156,13 @@ li p {
 	color: #898a8c;
 	line-height: 24px;
 	padding-left: 45px;
-	text-align: justify;
+	text-align: left;
 	min-height:700px;
 	letter-spacing: 1px;
+}
+
+.textGamme {
+	text-align: left;
 }
 
 .text-hors-li-gamme{
@@ -178,7 +182,6 @@ li p {
   line-height: 24px;
   list-style-type: disc; 
   letter-spacing: 1px;
-  text-align: justify;
 }
 
 
