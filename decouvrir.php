@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<link rel="stylesheet" type="text/css" href="css/contentlight.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
@@ -24,7 +23,9 @@
 </script>
 	<title>Qui sommes nous ?</title>
 </head>
+
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div class="container">
 		<section class="row main">
 			<div class="col-lg-12">
@@ -56,7 +57,7 @@
 			</div>
 		</section>
 	</div>
-	<footer style="width: 100%;">
+<footer style="width: 100%;">
 		<div class="container">
 			<?php include 'html/footer.html'; ?>
 		</div>

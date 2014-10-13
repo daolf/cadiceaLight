@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +20,9 @@
 	<meta name="keywords" content="Cadicea, Lait infantile, md-fonscare" />
 	<title>Cadicea</title>
 </head>
+
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div class="container">
 		<section class="row main">
 			<div class="col-lg-12">
@@ -39,10 +40,11 @@
 			</div>
 		</section>
 	</div>
-	<footer style="width: 100%;">
+</body>
+
+<footer style="width: 100%;">
 		<div class="container">
 			<?php include 'html/footer.html'; ?>
 		</div>
-	</footer>
-</body>
+</footer>
 </html>
