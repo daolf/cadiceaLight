@@ -1,5 +1,5 @@
 <?php 
-			header ("Refresh: 1;URL=index.php");
+			header ("Refresh: 2;URL=index.php");
 			// Redirection vers page_suivante.php après un délai de 5 secondes
 			// durant lesquelles la page actuelle (page_premiere.php, par exemple) est affichée
 ?>
@@ -14,7 +14,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/middle.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	<!-- <link rel="stylesheet" type="text/css" href=""> -->
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,8 +33,12 @@
 				</header>
 				<?php 
 					if($_GET['state'] == 'succes'){
-						echo '<h1>Votre message a été envoyé avec succes</h1>';
-					}else{
+						echo '<h1>Votre message a été envoyé avec succès</h1>';
+					}
+					elseif($_GET['state'] == 'missing'){
+						echo '<h1>Veuillez renseigner tout les champs</h1>';
+					}
+					else {
 						echo '<h1>Un problème a été rencontré</h1>';
 					}
 				?>

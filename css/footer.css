@@ -10,6 +10,16 @@ footer {
     min-height: 100%;
 }
 
+.texte-footer a{
+    font-size: 10pt;
+    text-align: justify;
+}
+
+.texte-footer a:hover{
+    font-weight: 600;
+    color: #fff;
+}
+
 .input {
     border-radius: 0px;
 }
@@ -108,7 +118,7 @@ footer strong{
 /***************************************\
 **                                     **
 **  Media queries tablettes ==> footer **
-**      TABLETTE STYLE NEXUS 7                               **
+**      TABLETTE STYLE NEXUS 7         **
 \***************************************/
 
 @media (max-width: 991px) {
