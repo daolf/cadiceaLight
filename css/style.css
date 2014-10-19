@@ -16,7 +16,6 @@ body {
 [class*="col-"] {
     text-align: center;
     line-height: 40px;
-    overflow: hidden;
 }
 
 .blue {

@@ -27,6 +27,7 @@ a:hover, .current{
     padding: 70px 0px 30px 14px;
     height: 20%;
     background-color: #fff;
+    overflow: visible;
 }
 .menu-href-1 { 
     background-color: #fff;
