@@ -85,7 +85,7 @@
 	}	
 	.slider .bouton-decouv {
  		margin-top: 0px;
-		width: 27%;
+		width: 120px;
 		height: 10%;
 		font-size: 13pt;
 		padding-left: 0px;
@@ -101,5 +101,7 @@
 		margin-bottom: 0px;
 	}
 
-
+	.texte {
+		width: auto;
+	}
 }
